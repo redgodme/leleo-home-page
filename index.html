@@ -5,6 +5,7 @@
     <link rel="icon" type="image/x-icon" href="#">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css">
+    <script>var meting_api = 'https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&referrer=:referrer';</script>
     <meta name="description" content="欢迎来到Leleo的奇妙世界！">
     <meta name="keywords" content="Leleo,leleo,个人主页,个人网站">
     <title></title>
@@ -15,23 +16,27 @@
 
     <script>
       (function() {
-        const playMusic = () => {
-          // 查找 MetingJS 实例
-          const meting = document.querySelector('meting-js');
-          if (meting && meting.aplayer) {
-            meting.aplayer.play().then(() => {
-              console.log("音乐已成功激活");
-              // 成功后移除监听，避免浪费资源
-              events.forEach(ev => window.removeEventListener(ev, playMusic));
-            }).catch(err => {
-              // 如果还是报错，说明还没产生有效交互，继续等待
-            });
-          }
-        };
+        // 每 300 毫秒扫描一次页面，直到找到播放器
+        const timer = setInterval(() => {
+          const m = document.querySelector('meting-js');
+          if (m && m.aplayer) {
+            clearInterval(timer);
+            console.log("找到播放器，准备激活...");
+            
+            const doPlay = () => {
+              m.aplayer.play().then(() => {
+                console.log("播放成功");
+                ["click", "touchstart", "mousemove", "scroll"].forEach(e => 
+                  window.removeEventListener(e, doPlay)
+                );
+              }).catch(() => {});
+            };
 
-        // 监听几乎所有可能的人机交互动作
-        const events = ['click', 'touchstart', 'mousedown', 'wheel', 'keydown'];
-        events.forEach(ev => window.addEventListener(ev, playMusic));
+            ["click", "touchstart", "mousemove", "scroll"].forEach(e => 
+              window.addEventListener(e, doPlay)
+            );
+          }
+        }, 300);
       })();
     </script>
   </body>
