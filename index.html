@@ -12,5 +12,27 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <script>
+      (function() {
+        const playMusic = () => {
+          // 查找 MetingJS 实例
+          const meting = document.querySelector('meting-js');
+          if (meting && meting.aplayer) {
+            meting.aplayer.play().then(() => {
+              console.log("音乐已成功激活");
+              // 成功后移除监听，避免浪费资源
+              events.forEach(ev => window.removeEventListener(ev, playMusic));
+            }).catch(err => {
+              // 如果还是报错，说明还没产生有效交互，继续等待
+            });
+          }
+        };
+
+        // 监听几乎所有可能的人机交互动作
+        const events = ['click', 'touchstart', 'mousedown', 'wheel', 'keydown'];
+        events.forEach(ev => window.addEventListener(ev, playMusic));
+      })();
+    </script>
   </body>
 </html>
