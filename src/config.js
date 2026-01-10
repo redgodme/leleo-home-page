@@ -72,8 +72,8 @@ const config = {
 	//音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
 	musicPlayer: {
 		server: 'netease',  //服务提供商 --网易云音乐
-		type: 'playlist',   //歌单类型
-		id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+		type: 'song',   //歌单类型
+		id: '32785215'  //歌单id ---> music.163.com/#/playlist?id=2028178887
 	},
 
 	//壁纸数据 -----可以将壁纸文件上传到图床获取网络直链。若想调用api，请前往脚本自行修改逻辑
