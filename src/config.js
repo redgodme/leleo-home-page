@@ -1,7 +1,7 @@
 const config = {
 	//网页元数据
 	metaData: {
-		title: '个人主页🎉',
+		title: '鑫🎉',
 		description: '欢迎来到Leleo的奇妙世界！',
 		keywords: 'Leleo,leleo,个人主页,个人网站',
 		icon: '/favicon.ico'   //网页图标，支持外链
@@ -53,7 +53,7 @@ const config = {
 
 	//社交按钮
 	socialPlatformIcons: [
-		{ icon: "mdi-github", link: "https://www.github.com/redgod" },
+		{ icon: "mdi-github", link: "https://www.github.com/redgodme" },
 		{ icon: "mdi-email", link: "mailto:xiaoyin610804811@gmail.com" },
 		{ icon: "mdi-qqchat", link: "https://im.qq.com/" },
 		{ icon: "mdi-wechat", link: "https://wx.qq.com/" },
