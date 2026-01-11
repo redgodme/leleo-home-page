@@ -137,7 +137,7 @@ const config = {
         },
         //项目卡片 其中 字段"show"控制初始卡片的text是否展开
         projectcards: [
-                { go: "🚀 前往", img: "/img/sunshine.jpg", title: "施工ing", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://to.xiaoyin.de5.net", show: false },
+                { go: "🚀 前往", img: "go1768148017075_dreamina_7567801047083748654_1768147954510_m.mp4", title: "施工ing", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://to.xiaoyin.de5.net", show: false },
                 { go: "🗂️ 前往", img: "https://cloudflare-imgbed-a0l.pages.dev/file/1768138557250_3100x1775.jpg", title: "图床云盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://url.xiaoyin.de5.net/", show: false },
                 { go: "📝 前往", img: "/img/sunshine.jpg", title: "施工ing", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://to.xiaoyin.de5.net", show: false },
                 { go: "👍 前往", img: "/img/sunshine.jpg", title: "快完成了", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://to.xiaoyin.de5.net", show: false },
