@@ -10,7 +10,7 @@ const config = {
         avatar: "/img/avatar.jpg", // 头像
         welcometitle: "Hi, I'm Xin", // 标题
 
-        // 颜色配置
+                // 颜色配置
         color: {
                 themecolor: "#FFFFFF", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
                 welcometitlecolor: "#FFFFFF", // 标题颜色 例： #7BFFC9
@@ -27,11 +27,11 @@ const config = {
         // 默认背景壁纸
         background: {
                 "pc": {   //pc端
-                        "type": "video",   //"pic":静态壁纸;"video":动态壁纸
+                        "type": "pic",   //"pic":静态壁纸;"video":动态壁纸
                         "datainfo": {
-                                "title": "x",
+                                "title": "海洋女孩",
                                 "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
-                                "url": "https://t.alcy.cc/acgapi/acg/94036.mp4",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+                                "url": "/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
                         },
                 },
                 "mobile": {   //移动端
@@ -53,7 +53,7 @@ const config = {
 
         //社交按钮
         socialPlatformIcons: [
-                { icon: "mdi-github", link: "https://www.github.com/redgodme" },
+                { icon: "mdi-github", link: "https://www.github.com/leleo886" },
                 { icon: "mdi-email", link: "mailto:leleo886@foxmail.com" },
                 { icon: "mdi-qqchat", link: "https://im.qq.com/" },
                 { icon: "mdi-wechat", link: "https://wx.qq.com/" },
@@ -73,7 +73,7 @@ const config = {
         musicPlayer: {
                 server: 'netease',  //服务提供商 --网易云音乐
                 type: 'playlist',   //歌单类型
-                id: '17657816544'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+                id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
         },
 
         //壁纸数据 -----可以将壁纸文件上传到图床获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -129,9 +129,9 @@ const config = {
                                 "url": "/img/wallpaper/dynamic-mobile/chuva/chuva.mp4"
                         },
                         {
-                                "title": "x",
-                                "preview": "https://t.alcy.cc/acgapi/acg/94036.mp4",
-                                "url": "https://t.alcy.cc/acgapi/acg/94036.mp4"
+                                "title": "Doodle-小猫女仆降临",
+                                "preview": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
+                                "url": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"
                         },
                 ],
         },
