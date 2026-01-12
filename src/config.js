@@ -29,9 +29,9 @@ const config = {
                 "pc": {   //pc端
                         "type": "video",   //"pic":静态壁纸;"video":动态壁纸
                         "datainfo": {
-                                "title": "海洋女孩",
+                                "title": "x",
                                 "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
-                                "url": "/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+                                "url": "https://t.alcy.cc/acgapi/acg/94036.mp4",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
                         },
                 },
                 "mobile": {   //移动端
