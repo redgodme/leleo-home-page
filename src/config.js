@@ -129,9 +129,9 @@ const config = {
                                 "url": "/img/wallpaper/dynamic-mobile/chuva/chuva.mp4"
                         },
                         {
-                                "title": "Doodle-小猫女仆降临",
-                                "preview": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
-                                "url": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"
+                                "title": "x",
+                                "preview": "https://t.alcy.cc/acgapi/acg/94036.mp4",
+                                "url": "https://t.alcy.cc/acgapi/acg/94036.mp4"
                         },
                 ],
         },
@@ -141,8 +141,9 @@ const config = {
                 { go: "🗂️ 前往", img: "https://cloudflare-imgbed-a0l.pages.dev/file/1768138557250_3100x1775.jpg", title: "图床云盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://url.xiaoyin.de5.net/", show: false },
                 { go: "📝 前往", img: "https://url.xiaoyin.de5.net/file/1768142652035_1768059062019.jpg", title: "施工ing", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://to.xiaoyin.de5.net", show: false },
                 { go: "👍 前往", img: "https://url.xiaoyin.de5.net/file/1768142658053_1768059086707.jpg", title: "快完成了", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://to.xiaoyin.de5.net", show: false },
-                { go: "🗃 前往", img: "https://url.xiaoyin.de5.net/file/1768142658053_1768059086707.jpg", title: "影视备用", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv.redgod.qzz.io/login", show: false },
-                { go: "🎨 前往", img: "/img/sunshine.jpg", title: "订阅后台", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxcm.mygad.de5.net/login", show: false },
+                { go: "🗃 前往", img: "https://https://t.alcy.cc/fj", title: "影视备用", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv.redgod.qzz.io/login", show: false },
+                { go: "🎨 前往", img:
+“https://t.alcy.cc/fj", title: "订阅后台", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxcm.mygad.de5.net/login", show: false },
                 { go: "💍 前往", img: "/img/sunshine.jpg", title: "平台自动签到", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
                 { go: "🔍 前往", img: "https://url.xiaoyin.de5.net/file/1768142649057_1768059094520.jpg", title: "影视库", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv.red.abrdns.com", show: false },
         ],
