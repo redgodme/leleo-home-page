@@ -27,7 +27,7 @@ const config = {
         // 默认背景壁纸
         background: {
                 "pc": {   //pc端
-                        "type": "pic",   //"pic":静态壁纸;"video":动态壁纸
+                        "type": "video",   //"pic":静态壁纸;"video":动态壁纸
                         "datainfo": {
                                 "title": "海洋女孩",
                                 "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
