@@ -4,7 +4,7 @@ const config = {
                 title: 'xin的个人主页🎉',
                 description: '欢迎来到Xin的奇妙世界！',
                 keywords: 'xin,xin,个人主页,个人网站',
-                                icon: '/favicon.ico'   //网页图标，支持外链
+                icon: '/favicon.ico'   //网页图标，支持外链
         },
 
                 avatar: "/img/avatar.jpg", // 头像
@@ -27,11 +27,11 @@ const config = {
         // 默认背景壁纸
         background: {
                 "pc": {   //pc端
-                        "type": "video",   //"pic":静态壁纸;"video":动态壁纸
+                        "type": "pic",   //"pic":静态壁纸;"video":动态壁纸
                         "datainfo": {
                                 "title": "海洋女孩",
                                 "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
-                                "url": "/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town.mp4",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+                                "url": "/img/wallpaper/static/海洋女孩/image-pre.webp", "url": "/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
                         },
                 },
                 "mobile": {   //移动端
