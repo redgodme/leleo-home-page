@@ -4,7 +4,7 @@ const config = {
                 title: 'xin的个人主页🎉',
                 description: '欢迎来到Xin的奇妙世界！',
                 keywords: 'xin,xin,个人主页,个人网站',
-                icon: 'https://url.xiaoyin.de5.net/file/1768230630058_94036.mp4'   //网页图标，支持外链
+                                icon: '/favicon.ico'   //网页图标，支持外链
         },
 
                 avatar: "/img/avatar.jpg", // 头像
