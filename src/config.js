@@ -7,7 +7,7 @@ const config = {
                 icon: 'https://url.xiaoyin.de5.net/file/1768230630058_94036.mp4'   //网页图标，支持外链
         },
 
-        avatar: "https://url.xiaoyin.de5.net/file/1768230630058_94036.mp4", // 头像
+                avatar: "/img/avatar.jpg", // 头像
         welcometitle: "Hi, I'm Xin", // 标题
 
                 // 颜色配置
