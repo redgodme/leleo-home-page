@@ -73,7 +73,7 @@ const config = {
         musicPlayer: {
                 server: 'netease',  //服务提供商 --网易云音乐
                 type: 'playlist',   //歌单类型
-                id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+                id: '17657816544'  //歌单id ---> music.163.com/#/playlist?id=2028178887
         },
 
         //壁纸数据 -----可以将壁纸文件上传到图床获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -140,7 +140,7 @@ const config = {
                 { go: "🚀 前往", img: "https://url.xiaoyin.de5.net/file/1768142657673_1768059050314.jpg", title: "导航站", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://my.redgod.qzz.io", show: false },
                 { go: "🗂️ 前往", img: "https://cloudflare-imgbed-a0l.pages.dev/file/1768138557250_3100x1775.jpg", title: "图床云盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://url.xiaoyin.de5.net/", show: false },
                 { go: "📝 前往", img: "https://url.xiaoyin.de5.net/file/1768142652035_1768059062019.jpg", title: "随机acg", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://t.alcy.cc/acg", show: false },
-                { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "快完成了", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://to.xiaoyin.de5.net", show: false },
+                { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "快完成了", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://xin.bod.indevs.in", show: false },
                 { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "影视备用", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv.redgod.qzz.io/login", show: false },
                 { go: "👍 前往", img: "https://url.xiaoyin.de5.net/file/1768142658053_1768059086707.jpg", title: "订阅后台", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxcm.mygad.de5.net/login", show: false },
                 { go: "💍 前往", img: "/img/sunshine.jpg", title: "平台自动签到", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
