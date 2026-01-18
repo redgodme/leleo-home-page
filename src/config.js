@@ -144,7 +144,7 @@ const config = {
                 { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "影视仓库", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv1.xxy.indevs.in/login", show: false },
                 { go: "👍 前往", img: "https://url.xiaoyin.de5.net/file/1768142658053_1768059086707.jpg", title: "订阅后台", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://jd.xxy.indevs.in/admin", show: false },
                 { go: "💍 前往", img: "/img/sunshine.jpg", title: "平台自动签到", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
-                { go: "🔍 前往", img: "https://url.xiaoyin.de5.net/file/1768142649057_1768059094520.jpg", title: "建设中", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://tv.xxy.indevs.in", show: false },
+                { go: "🔍 前往", img: "https://url.xiaoyin.de5.net/file/1768142649057_1768059094520.jpg", title: "建设中", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxj.pages.dev/y1314", show: false },
         ],
 
         statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"],
