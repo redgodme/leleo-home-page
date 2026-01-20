@@ -1,14 +1,14 @@
 const config = {
         //网页元数据
         metaData: {
-                title: 'Leleo的个人主页🎉',
-                description: '欢迎来到Leleo的奇妙世界！',
-                keywords: 'Leleo,leleo,个人主页,个人网站',
+                title: 'Xin的个人主页🎉',
+                description: '欢迎来到Xin的奇妙世界！',
+                keywords: 'xin,Xin,个人主页,个人网站',
                 icon: '/favicon.ico'   //网页图标，支持外链
         },
 
         avatar: "/img/avatar.jpg", // 头像
-        welcometitle: "Hi, I'm Leleo", // 标题
+        welcometitle: "Hi, I'm Xin", // 标题
 
         // 颜色配置
         color: {
@@ -31,7 +31,7 @@ const config = {
                         "datainfo": {
                                 "title": "海洋女孩",
                                 "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
-                                "url": "/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+                                "url": "/img/wallpaper/static/海洋女孩/image.png"
                         },
                 },
                 "mobile": {   //移动端
@@ -39,10 +39,9 @@ const config = {
                         "datainfo": {
                                 "title": "0001",
                                 "preview": "/img/wallpaper/static-mobile/0001/image-pre.webp",
-                                "url": "/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+                                "url": "/img/wallpaper/static-mobile/0001/image.png"
                         }
                 }
-
         },
 
         //极坐标图数据
@@ -73,10 +72,10 @@ const config = {
         musicPlayer: {
                 server: 'netease',  //服务提供商 --网易云音乐
                 type: 'playlist',   //歌单类型
-                id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+                id: '17657816544'  //歌单id
         },
 
-        //壁纸数据 -----可以将壁纸文件上传到图床获取网络直链。若想调用api，请前往脚本自行修改逻辑
+        //壁纸数据
         wallpaper: {
                 pic: [
                         { "title": "海洋女孩", "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp", "url": "/img/wallpaper/static/海洋女孩/image.png" },
@@ -144,7 +143,7 @@ const config = {
                 { go: "👍 前往", img: "/img/sunshine.jpg", title: "new", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxj.redgad.de5.net", show: false },
                 { go: "🗃 前往", img: "/img/sunshine.jpg", title: "容器", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
                 { go: "🎨 前往", img: "/img/sunshine.jpg", title: "影视", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv1.xxy.indevs.in/login", show: false },
-                { go: "💍 前往", img: "/img/sunshine.jpg", title: ""图床云盘", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
+                { go: "💍 前往", img: "/img/sunshine.jpg", title: "图床云盘", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
                 { go: "🔍 前往", img: "/img/sunshine.jpg", title: "导航站", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
         ],
 
