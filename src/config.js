@@ -12,8 +12,8 @@ const config = {
 
         // 颜色配置
         color: {
-                themecolor: "#FFFFFF", // 主题颜色
-                welcometitlecolor: "#FFFFFF", // 标题颜色
+                themecolor: "#FFFFFF", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
+                welcometitlecolor: "#FFFFFF", // 标题颜色 例： #7BFFC9
                 turntablecolor1: "#FFFF00",  // 转盘渐变色一
                 turntablecolor2: "#00FFFF"   // 转盘渐变色二
         },
@@ -26,15 +26,15 @@ const config = {
 
         // 默认背景壁纸
         background: {
-                "pc": {
-                        "type": "pic",
+                "pc": {   //pc端
+                        "type": "pic",   //"pic":静态壁纸;"video":动态壁纸
                         "datainfo": {
                                 "title": "海洋女孩",
                                 "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
                                 "url": "/img/wallpaper/static/海洋女孩/image.png"
                         },
                 },
-                "mobile": {
+                "mobile": {   //移动端
                         "type": "pic",
                         "datainfo": {
                                 "title": "0001",
@@ -68,47 +68,86 @@ const config = {
                 "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。"
         ],
 
-        //音乐播放配置
+        //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
         musicPlayer: {
-                server: 'netease',
-                type: 'playlist',
-                id: '17657816544'
+                server: 'netease',  //服务提供商 --网易云音乐
+                type: 'playlist',   //歌单类型
+                id: '17657816544'  //歌单id
         },
 
         //壁纸数据
         wallpaper: {
                 pic: [
-                        { "title": "森林呼吸", "preview": "https://imgapi.cn/api.php?category=fengjing&type=small", "url": "https://imgapi.cn/api.php?category=fengjing" },
-                        { "title": "二次元之窗", "preview": "https://t.alcy.cc/acg?category=girls", "url": "https://t.alcy.cc/acg" },
-                        { "title": "极简建筑", "preview": "https://imgapi.cn/api.php?category=architecture&type=small", "url": "https://imgapi.cn/api.php?category=architecture" },
-                        { "title": "星空夜话", "preview": "https://imgapi.cn/api.php?category=star&type=small", "url": "https://imgapi.cn/api.php?category=star" }
+                        { "title": "海洋女孩", "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp", "url": "/img/wallpaper/static/海洋女孩/image.png" },
+                        { "title": "书房夜晚", "preview": "/img/wallpaper/static/书房夜晚/image-pre.webp", "url": "/img/wallpaper/static/书房夜晚/image.png" },
+                        { "title": "安逸舒适", "preview": "/img/wallpaper/static/安逸舒适/image-pre.webp", "url": "/img/wallpaper/static/安逸舒适/image.png" },
+                        { "title": "jswcMaMj", "preview": "https://s21.ax1x.com/2025/07/23/pVGli59.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGli59.jpg" },
+                        { "title": "pgtTqoqq", "preview": "https://s21.ax1x.com/2025/07/23/pVGlmDO.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGlmDO.jpg" },
+                        { "title": "cvKMKhue", "preview": "https://s21.ax1x.com/2025/07/23/pVGlNqS.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGlNqS.jpg" },
+                        { "title": "XpxvQVoP", "preview": "https://s21.ax1x.com/2025/07/23/pVGlfIJ.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGlfIJ.jpg" },
+                        { "title": "fVEEjEOA", "preview": "https://s21.ax1x.com/2025/07/23/pVGlEgx.md.webp", "url": "https://s21.ax1x.com/2025/07/23/pVGlEgx.webp" },
+                        { "title": "jgnIKMpd", "preview": "https://s21.ax1x.com/2025/07/23/pVGldaQ.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGldaQ.jpg" },
+                        { "title": "mgqyySeh", "preview": "https://s21.ax1x.com/2025/07/23/pVGl82t.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGl82t.jpg" },
+                        { "title": "dSXZfZp", "preview": "https://s21.ax1x.com/2025/07/23/pVGlaVg.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGlaVg.jpg" },
                 ],
                 picMobile: [
-                        { "title": "竖屏随心", "preview": "https://imgapi.cn/api.php?category=meizi&type=small", "url": "https://imgapi.cn/api.php?mm=1" }
+                        { "title": "0001", "preview": "/img/wallpaper/static-mobile/0001/image-pre.webp", "url": "/img/wallpaper/static-mobile/0001/image.png" },
+                        { "title": "0002", "preview": "/img/wallpaper/static-mobile/0002/image-pre.webp", "url": "/img/wallpaper/static-mobile/0002/image.png" },
+                        { "title": "0003", "preview": "/img/wallpaper/static-mobile/0003/image-pre.webp", "url": "/img/wallpaper/static-mobile/0003/image.png" },
+                        { "title": "0004", "preview": "/img/wallpaper/static-mobile/0004/image-pre.webp", "url": "/img/wallpaper/static-mobile/0004/image.png" },
+                        { "title": "DfNHPPcc", "preview": "https://s21.ax1x.com/2025/07/23/pVG1uQ0.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVG1uQ0.jpg" },
+                        { "title": "cZZwzhis", "preview": "https://s21.ax1x.com/2025/07/23/pVG1Vij.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVG1Vij.jpg" },
+                        { "title": "aANKZHPX", "preview": "https://s21.ax1x.com/2025/07/23/pVGlIR1.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGlIR1.jpg" },
                 ],
                 video: [
+                        {
+                                "title": "尼尔：机械纪元 团队",
+                                "preview": "/img/wallpaper/dynamic/尼尔：机械纪元 团队/Nier-Automata-Team-pre.webm",
+                                "url": "/img/wallpaper/dynamic/尼尔：机械纪元 团队/Nier-Automata-Team.webm"
+                        },
                         {
                                 "title": "向往航天的女孩",
                                 "preview": "/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane-pre.webm",
                                 "url": "/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane.webm"
-                        }
+                        },
+                        {
+                                "title": "世界很温柔《龙族》上杉绘梨衣",
+                                "preview": "https://www.leleo.top/img/wallpaper/dynamic/%E4%B8%96%E7%95%8C%E5%BE%88%E6%B8%A9%E6%9F%94%E3%80%8A%E9%BE%99%E6%97%8F%E3%80%8B%E4%B8%8A%E6%9D%89%E7%BB%98%E6%A2%A8%E8%A1%A3/A2EF5E85-pre.webm",
+                                "url": "https://www.leleo.top/img/wallpaper/dynamic/%E4%B8%96%E7%95%8C%E5%BE%88%E6%B8%A9%E6%9F%94%E3%80%8A%E9%BE%99%E6%97%8F%E3%80%8B%E4%B8%8A%E6%9D%89%E7%BB%98%E6%A2%A8%E8%A1%A3/A2EF5E85.webm"
+                        },
                 ],
-                videoMobile: [],
+                videoMobile: [
+                        {
+                                "title": "幻觉镇-gaako_illust",
+                                "preview": "/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town-pre.mp4",
+                                "url": "/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town.mp4"
+                        },
+                        {
+                                "title": "chuva",
+                                "preview": "/img/wallpaper/dynamic-mobile/chuva/chuva-pre.mp4",
+                                "url": "/img/wallpaper/dynamic-mobile/chuva/chuva.mp4"
+                        },
+                        {
+                                "title": "Doodle-小猫女仆降临",
+                                "preview": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
+                                "url": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"
+                        },
+                ],
         },
 
-        //项目卡片 - 采用稳定图床链接
+        //项目卡片 其中 字段"show"控制初始卡片的text是否展开
         projectcards: [
-                { go: "🚀 前往", img: "https://t.alcy.cc/acg?1", title: "导航站", subtitle: "探索更多可能", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
-                { go: "🗂️ 前往", img: "https://t.alcy.cc/acg?2", title: "图床云盘", subtitle: "云端存储中心", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
-                { go: "📝 前往", img: "https://t.alcy.cc/acg?3", title: "随机ACG", subtitle: "遇见不一样的美", text: "每次刷新都是新世界。", url: "https://t.alcy.cc/acg", show: false },
-                { go: "👍 前往", img: "https://t.alcy.cc/ysz?1", title: "快完成了", subtitle: "项目打磨中", text: "精益求精，敬请期待。", url: "http://tv.xxy.indevs.in", show: false },
-                { go: "🎬 前往", img: "https://t.alcy.cc/ysz?2", title: "影视仓库", subtitle: "私人影院体验", text: "收藏你最爱的光影瞬间。", url: "https://tv1.xxy.indevs.in/login", show: false },
-                { go: "💍 前往", img: "https://imgapi.cn/api.php?category=fengjing&4", title: "订阅管理", subtitle: "高效分流控制", text: "If you see this line, I've managed to get your attention.", url: "https://xxcm.pages.dev/admin", show: false },
-                { go: "✅ 前往", img: "https://imgapi.cn/api.php?category=fengjing&5", title: "自动签到", subtitle: "解放双手", text: "让脚本为你效劳。", url: "http://125.208.21.128:11905", show: false },
-                { go: "🔍 前往", img: "https://imgapi.cn/api.php?category=fengjing&6", title: "建设中", subtitle: "正在完善...", text: "每一个脚印都见证成长。", url: "https://gxj.redgad.de5.net", show: false },
+                { go: "🚀 前往", img: "/img/sunshine.jpg", title: "Project 1", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "Project 2", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "📝 前往", img: "/img/sunshine.jpg", title: "CM", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://xxcm.pages.dev/admin", show: false },
+                { go: "👍 前往", img: "/img/sunshine.jpg", title: "new", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxj.redgad.de5.net", show: false },
+                { go: "🗃 前往", img: "/img/sunshine.jpg", title: "容器", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
+                { go: "🎨 前往", img: "/img/sunshine.jpg", title: "影视", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv1.xxy.indevs.in/login", show: false },
+                { go: "💍 前往", img: "/img/sunshine.jpg", title: "图床云盘", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
+                { go: "🔍 前往", img: "/img/sunshine.jpg", title: "导航站", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
         ],
 
-        statement: ["备案号：XXICP备123456789号", "Copyright © 2026 Xin"],
+        statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"],
 }
 
 export default config
