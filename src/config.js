@@ -1,14 +1,14 @@
 const config = {
         //网页元数据
         metaData: {
-                title: 'xin的个人主页🎉',
-                description: '欢迎来到Xin的奇妙世界！',
-                keywords: 'xin,xin,个人主页,个人网站',
+                title: 'Leleo的个人主页🎉',
+                description: '欢迎来到Leleo的奇妙世界！',
+                keywords: 'Leleo,leleo,个人主页,个人网站',
                 icon: '/favicon.ico'   //网页图标，支持外链
         },
 
-                avatar: "/img/avatar.jpg", // 头像
-        welcometitle: "Hi, I'm Xin", // 标题
+        avatar: "/img/avatar.jpg", // 头像
+        welcometitle: "Hi, I'm Leleo", // 标题
 
         // 颜色配置
         color: {
@@ -135,15 +135,17 @@ const config = {
                         },
                 ],
         },
-        //项目卡片 其中 字段"show"控制初始卡片的text是否展开        projectcards: [
-                { go: "🚀 前往", img: "https://url.xiaoyin.de5.net/file/1768142657673_1768059050314.jpg", title: "导航站", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
-                { go: "🗂️ 前往", img: "/img/wallpaper/static/海洋女孩/image.png", title: "图床云盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
-                { go: "📝 前往", img: "https://url.xiaoyin.de5.net/file/1768142652035_1768059062019.jpg", title: "随机acg", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://t.alcy.cc/acg", show: false },
-                { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "快完成了", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://tv.xxy.indevs.in", show: false },
-                { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "影视仓库", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv1.xxy.indevs.in/login", show: false },
-                { go: "💍 前往", img: "/img/sunshine.jpg", title: "订阅管理", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://xxcm.pages.dev/admin", show: false },
-                { go: "💍 前往", img: "/img/sunshine.jpg", title: "平台自动签到", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
-                { go: "🔍 前往", img: "https://url.xiaoyin.de5.net/file/1768142649057_1768059094520.jpg", title: "建设中", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxj.redgad.de5.net", show: false },
+
+        //项目卡片 其中 字段"show"控制初始卡片的text是否展开
+        projectcards: [
+                { go: "🚀 前往", img: "/img/sunshine.jpg", title: "Project 1", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "Project 2", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "📝 前往", img: "/img/sunshine.jpg", title: "Project 3", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "👍 前往", img: "/img/sunshine.jpg", title: "Project 4", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "🗃 前往", img: "/img/sunshine.jpg", title: "Project 5", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "🎨 前往", img: "/img/sunshine.jpg", title: "Project 6", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "💍 前往", img: "/img/sunshine.jpg", title: "Project 7", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+                { go: "🔍 前往", img: "/img/sunshine.jpg", title: "Project 8", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
         ],
 
         statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"],
