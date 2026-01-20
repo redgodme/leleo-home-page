@@ -73,7 +73,7 @@ const config = {
         musicPlayer: {
                 server: 'netease',  //服务提供商 --网易云音乐
                 type: 'playlist',   //歌单类型
-                id: '17657816544'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+                id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
         },
 
         //壁纸数据 -----可以将壁纸文件上传到图床获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -135,7 +135,6 @@ const config = {
                         },
                 ],
         },
-
         //项目卡片 其中 字段"show"控制初始卡片的text是否展开        projectcards: [
                 { go: "🚀 前往", img: "https://url.xiaoyin.de5.net/file/1768142657673_1768059050314.jpg", title: "导航站", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
                 { go: "🗂️ 前往", img: "/img/wallpaper/static/海洋女孩/image.png", title: "图床云盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
