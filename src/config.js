@@ -10,7 +10,7 @@ const config = {
                 avatar: "/img/avatar.jpg", // 头像
         welcometitle: "Hi, I'm Xin", // 标题
 
-                // 颜色配置
+        // 颜色配置
         color: {
                 themecolor: "#FFFFFF", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
                 welcometitlecolor: "#FFFFFF", // 标题颜色 例： #7BFFC9
@@ -24,24 +24,25 @@ const config = {
         // 我的标签
         tags: ['乐观开朗', '温柔体贴', '随和亲切', '冷静沉着', '才思敏捷', '风趣幽默', '刚正不阿', '善解人意'],
 
-                // 默认背景壁纸
+        // 默认背景壁纸
         background: {
                 "pc": {   //pc端
                         "type": "pic",   //"pic":静态壁纸;"video":动态壁纸
                         "datainfo": {
                                 "title": "海洋女孩",
                                 "preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
-                                "url": "/img/wallpaper/static/海洋女孩/image.png" 
-                        }
+                                "url": "/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+                        },
                 },
                 "mobile": {   //移动端
                         "type": "pic",
                         "datainfo": {
                                 "title": "0001",
                                 "preview": "/img/wallpaper/static-mobile/0001/image-pre.webp",
-                                "url": "/img/wallpaper/static-mobile/0001/image.png"
+                                "url": "/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
                         }
                 }
+
         },
 
         //极坐标图数据
@@ -134,8 +135,8 @@ const config = {
                         },
                 ],
         },
-        //项目卡片 其中 字段"show"控制初始卡片的text是否展开
-        projectcards: [
+
+        //项目卡片 其中 字段"show"控制初始卡片的text是否展开        projectcards: [
                 { go: "🚀 前往", img: "https://url.xiaoyin.de5.net/file/1768142657673_1768059050314.jpg", title: "导航站", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
                 { go: "🗂️ 前往", img: "/img/wallpaper/static/海洋女孩/image.png", title: "图床云盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
                 { go: "📝 前往", img: "https://url.xiaoyin.de5.net/file/1768142652035_1768059062019.jpg", title: "随机acg", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://t.alcy.cc/acg", show: false },
