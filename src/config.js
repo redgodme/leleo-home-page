@@ -68,7 +68,7 @@ const config = {
                 "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。"
         ],
 
-        //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
+        //音乐播放配置
         musicPlayer: {
                 server: 'netease',  //服务提供商 --网易云音乐
                 type: 'playlist',   //歌单类型
@@ -135,16 +135,16 @@ const config = {
                 ],
         },
 
-        //项目卡片 其中 字段"show"控制初始卡片的text是否展开
+        //项目卡片
         projectcards: [
-                { go: "🚀 前往", img: "/img/sunshine.jpg", title: "Project 1", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-                { go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "Project 2", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-                { go: "📝 前往", img: "/img/sunshine.jpg", title: "CM", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://xxcm.pages.dev/admin", show: false },
-                { go: "👍 前往", img: "/img/sunshine.jpg", title: "new", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxj.redgad.de5.net", show: false },
-                { go: "🗃 前往", img: "/img/sunshine.jpg", title: "容器", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
-                { go: "🎨 前往", img: "/img/sunshine.jpg", title: "影视", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv1.xxy.indevs.in/login", show: false },
-                { go: "💍 前往", img: "/img/sunshine.jpg", title: "图床云盘", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
-                { go: "🔍 前往", img: "/img/sunshine.jpg", title: "导航站", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
+                { go: "🚀 前往", img: "https://url.xiaoyin.de5.net/file/1768142657673_1768059050314.jpg", title: "导航站", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://dh.xxy.indevs.in", show: false },
+                { go: "🗂️ 前往", img: "/img/wallpaper/static/海洋女孩/image.png", title: "图床云盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tu.xxy.indevs.in", show: false },
+                { go: "📝 前往", img: "https://url.xiaoyin.de5.net/file/1768142652035_1768059062019.jpg", title: "随机acg", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://t.alcy.cc/acg", show: false },
+                { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "快完成了", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://tv.xxy.indevs.in", show: false },
+                { go: "👍 前往", img: "https://t.alcy.cc/ysz", title: "影视仓库", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://tv1.xxy.indevs.in/login", show: false },
+                { go: "💍 前往", img: "/img/sunshine.jpg", title: "订阅管理", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://xxcm.pages.dev/admin", show: false },
+                { go: "💍 前往", img: "/img/sunshine.jpg", title: "平台自动签到", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "http://125.208.21.128:11905", show: false },
+                { go: "🔍 前往", img: "https://url.xiaoyin.de5.net/file/1768142649057_1768059094520.jpg", title: "建设中", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://gxj.redgad.de5.net", show: false },
         ],
 
         statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"],
